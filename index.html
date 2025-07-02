@@ -2,65 +2,50 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Żużlowy Menedżer - Bytom</title>
+  <title>Żużlowy Menedżer – Centrum Ligowe</title>
   <style>
-    body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #f0f0f0; color: #222; }
-    header { background-color: #003366; color: #fff; padding: 20px; text-align: center; }
-    nav { background: #005599; padding: 10px; text-align: center; }
-    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    section { padding: 20px; background: #fff; margin: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
-    th { background-color: #eee; }
-    .zawodnik { display: flex; align-items: center; margin-bottom: 10px; }
-    .zawodnik img { width: 60px; height: 60px; border-radius: 50%; margin-right: 15px; }
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #222; }
+    header { background-color: #222; color: white; padding: 30px; text-align: center; }
+    nav { background-color: #444; padding: 15px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { margin: 30px auto; width: 90%; max-width: 1000px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h2 { color: #cc0000; }
+    .liga-link { margin: 10px 0; font-size: 1.1em; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>KS Bytom Speedway</h1>
-  <p>Oficjalna strona menedżera drużyny żużlowej</p>
+  <h1>Żużlowy Menedżer</h1>
+  <p>Oficjalny portal ligowy gry menedżera żużlowego</p>
 </header>
 
 <nav>
-  <a href="#aktualnosci">Aktualności</a>
-  <a href="#zawodnicy">Zawodnicy</a>
-  <a href="#terminarz">Terminarz</a>
+  <a href="liga1.html">Liga 1</a>
+  <a href="liga2.html">Liga 2</a>
+  <a href="liga3.html">Liga 3</a>
   <a href="#kontakt">Kontakt</a>
 </nav>
 
-<section id="aktualnosci">
-  <h2>🔥 Aktualności</h2>
-  <p>03.07.2025 – KS Bytom pozyskuje nowego juniora – witamy Filipa Mazura!</p>
-  <p>30.06.2025 – Zwycięstwo z Gdańskiem 48:42. MVP: Marek Lech!</p>
+<section>
+  <h2>📰 Aktualności</h2>
+  <ul>
+    <li>03.07.2025 – Rozpoczęcie sezonu w każdej z lig! Powodzenia, menedżerowie! 💥</li>
+    <li>29.06.2025 – Nowy interfejs w aplikacji menedżera – sprawdź zakładkę transfery</li>
+  </ul>
 </section>
 
-<section id="zawodnicy">
-  <h2>👥 Skład drużyny</h2>
-  <div class="zawodnik">
-    <img src="marek.jpg" alt="Marek Lech">
-    <div><strong>Marek Lech</strong><br>Średnia biegowa: 2.18</div>
-  </div>
-  <div class="zawodnik">
-    <img src="filip.jpg" alt="Filip Mazur">
-    <div><strong>Filip Mazur</strong><br>Junior – debiut 2025</div>
-  </div>
+<section>
+  <h2>🏆 Ligi</h2>
+  <p class="liga-link">🔹 <strong>Liga 1</strong> – Najwyższy poziom rozgrywek z najlepszymi zespołami</p>
+  <p class="liga-link">🔸 <strong>Liga 2</strong> – Ambitne ekipy walczące o awans</p>
+  <p class="liga-link">⚪ <strong>Liga 3</strong> – Początkujący menedżerowie i przyszłe gwiazdy</p>
 </section>
 
-<section id="terminarz">
-  <h2>🏁 Terminarz</h2>
-  <table>
-    <tr><th>Data</th><th>Przeciwnik</th><th>Wynik</th></tr>
-    <tr><td>30.06.2025</td><td>vs Gdańsk</td><td>48:42 ✅</td></tr>
-    <tr><td>07.07.2025</td><td>vs Leszno</td><td>-</td></tr>
-    <tr><td>14.07.2025</td><td>Opole (wyjazd)</td><td>-</td></tr>
-  </table>
-</section>
-
-<section id="kontakt">
-  <h2>📬 Kontakt</h2>
-  <p>Masz pytania? Napisz: <a href="mailto:kontakt@ksbytom.pl">kontakt@ksbytom.pl</a></p>
+<section>
+  <h2 id="kontakt">📬 Kontakt</h2>
+  <p>Masz pytania, sugestie lub chcesz zgłosić nową drużynę? Napisz do nas:</p>
+  <p><strong>kontakt@zuzlowymenedzer.pl</strong></p>
 </section>
 
 </body>
