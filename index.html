@@ -2,39 +2,66 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Żużlowy Menedżer - Aktualności</title>
+  <title>Żużlowy Menedżer - Bytom</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f2f2f2; color: #333; }
-    header { background: #222; color: #fff; padding: 20px; text-align: center; }
-    section { margin-bottom: 30px; padding: 20px; background: #fff; border-radius: 8px; }
-    h2 { color: #cc0000; }
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #f0f0f0; color: #222; }
+    header { background-color: #003366; color: #fff; padding: 20px; text-align: center; }
+    nav { background: #005599; padding: 10px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; background: #fff; margin: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background-color: #eee; }
+    .zawodnik { display: flex; align-items: center; margin-bottom: 10px; }
+    .zawodnik img { width: 60px; height: 60px; border-radius: 50%; margin-right: 15px; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Aktualności Żużlowego Menedżera</h1>
-    <p>Twoje centrum informacji o drużynie!</p>
-  </header>
 
-  <section>
-    <h2>🏁 Ostatnie Wyniki</h2>
-    <ul>
-      <li>Bytom vs Gdańsk: 48 - 42 (30.06.2025)</li>
-      <li>Rybnik vs Bytom: 51 - 39 (23.06.2025)</li>
-    </ul>
-  </section>
+<header>
+  <h1>KS Bytom Speedway</h1>
+  <p>Oficjalna strona menedżera drużyny żużlowej</p>
+</header>
 
-  <section>
-    <h2>📅 Zapowiedzi Kolejek</h2>
-    <ul>
-      <li>Bytom vs Leszno - 07.07.2025, godz. 17:00</li>
-      <li>Opole vs Bytom - 14.07.2025</li>
-    </ul>
-  </section>
+<nav>
+  <a href="#aktualnosci">Aktualności</a>
+  <a href="#zawodnicy">Zawodnicy</a>
+  <a href="#terminarz">Terminarz</a>
+  <a href="#kontakt">Kontakt</a>
+</nav>
 
-  <section>
-    <h2>🔥 Wieści z Menedżera</h2>
-    <p>Nowy transfer! Do drużyny dołącza młody talent — Karol Szymański. 💪</p>
-  </section>
+<section id="aktualnosci">
+  <h2>🔥 Aktualności</h2>
+  <p>03.07.2025 – KS Bytom pozyskuje nowego juniora – witamy Filipa Mazura!</p>
+  <p>30.06.2025 – Zwycięstwo z Gdańskiem 48:42. MVP: Marek Lech!</p>
+</section>
+
+<section id="zawodnicy">
+  <h2>👥 Skład drużyny</h2>
+  <div class="zawodnik">
+    <img src="marek.jpg" alt="Marek Lech">
+    <div><strong>Marek Lech</strong><br>Średnia biegowa: 2.18</div>
+  </div>
+  <div class="zawodnik">
+    <img src="filip.jpg" alt="Filip Mazur">
+    <div><strong>Filip Mazur</strong><br>Junior – debiut 2025</div>
+  </div>
+</section>
+
+<section id="terminarz">
+  <h2>🏁 Terminarz</h2>
+  <table>
+    <tr><th>Data</th><th>Przeciwnik</th><th>Wynik</th></tr>
+    <tr><td>30.06.2025</td><td>vs Gdańsk</td><td>48:42 ✅</td></tr>
+    <tr><td>07.07.2025</td><td>vs Leszno</td><td>-</td></tr>
+    <tr><td>14.07.2025</td><td>Opole (wyjazd)</td><td>-</td></tr>
+  </table>
+</section>
+
+<section id="kontakt">
+  <h2>📬 Kontakt</h2>
+  <p>Masz pytania? Napisz: <a href="mailto:kontakt@ksbytom.pl">kontakt@ksbytom.pl</a></p>
+</section>
+
 </body>
 </html>
